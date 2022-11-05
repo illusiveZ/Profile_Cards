@@ -1,0 +1,121 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  max-height: 800px;
+  max-width: 1200px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.border {
+  height: 360px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.profile {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card1 {
+  background: url("/Profile_Cards/assets/images/frank.jpg") center center
+    no-repeat;
+  background-size: 300px;
+}
+
+.card1:hover {
+  background: url("/Profile_Cards/assets/images/frank.jpg") left center
+    no-repeat;
+  background-size: 600px;
+}
+
+.card1:hover h2 {
+  opacity: 1;
+}
+
+.card1:hover .fa-brands {
+  opacity: 1;
+}
+
+.card2 {
+  background: url("/Profile_Cards/assets/images/dee.jpg") center center
+    no-repeat;
+  background-size: 300px;
+}
+
+.card2:hover {
+  background: url("/Profile_Cards/assets/images/dee.jpg") left center no-repeat;
+  background-size: 600px;
+}
+
+.card2:hover h2 {
+  opacity: 1;
+}
+
+.card2:hover .fa-brands {
+  opacity: 1;
+}
+
+.card3 {
+  background: url("/Profile_Cards/assets/images/charlie.jpeg") center center
+    no-repeat;
+  background-size: 300px;
+}
+
+.card3:hover {
+  background: url("/Profile_Cards/assets/images/charlie.jpeg") left center
+    no-repeat;
+  background-size: 600px;
+}
+
+.card3:hover h2 {
+  opacity: 1;
+}
+
+.card3:hover .fa-brands {
+  opacity: 1;
+}
+
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.fa-brands {
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.links {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
